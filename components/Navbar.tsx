@@ -26,12 +26,12 @@ const Navbar = () => {
             <Image
               src="/logo.png"
               alt="convo logo"
-              width={50}
-              height={50}
+              width={100}
+              height={100}
               quality={100}
               className="w-7 h-7"
             />
-            <span className="text-2xl font-semibold">Convo</span>
+            <span className="text-2xl font-semibold">MoldifyAI</span>
           </Link>
           <div className="flex gap-1 sm:gap-4 items-center">
             {!isUserSignedIn ? (
@@ -47,50 +47,6 @@ const Navbar = () => {
                 Dashboard
               </Link>
             )}
-
-            <div className="hidden items-center space-x-4 sm:flex">
-              {!isUserSignedIn ? (
-                <>
-                  <Link
-                    href="/pricing"
-                    className={buttonVariants({
-                      variant: "ghost",
-                      size: "sm",
-                    })}
-                  >
-                    Pricing
-                  </Link>
-                  <Link
-                    className={buttonVariants({
-                      variant: "ghost",
-                      size: "sm",
-                    })}
-                    href="/sign-in"
-                  >
-                    Sign in
-                  </Link>
-                  <Link
-                    className={buttonVariants({
-                      size: "sm",
-                    })}
-                    href="/sign-up"
-                  >
-                    Get started
-                  </Link>
-                </>
-              ) : (
-                <>
-                  <Link
-                    className={buttonVariants({
-                      size: "sm",
-                    })}
-                    href="/dashboard"
-                  >
-                    Dashboard
-                  </Link>
-                </>
-              )}
-            </div>
 
             {/* User profile mockup below, e.g using Clerk: <UserButton afterSignOutUrl="/" /> */}
             {isUserSignedIn && (

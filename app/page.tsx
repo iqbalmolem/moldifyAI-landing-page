@@ -15,20 +15,13 @@ export default function Home() {
 
       {/* Hero */}
       <MaxWidthWrapper className="mt-10 flex flex-col items-center justify-center text-center sm:mt-12">
-        <div className="mx-auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50">
-          <p className="text-sm font-semibold text-gray-700">
-            Try Convo for Free
-          </p>
-        </div>
 
         <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
-          <span className="text-blue-600">Speech</span> Focused Language
-          Learning
+          Turning <span className="text-green-300">Reality</span> into <span className="text-blue-500">Virtual</span>
         </h1>
 
         <p className="mt-5 max-w-prose text-lg text-zinc-700 sm:text-2xl">
-          Convo helps you improve your spoken fluency with the help of an AI
-          tutor.
+        MoldifyAI converts real objects into 3D models, reshaping how we engage with the physical and digital worlds.
         </p>
 
         <Link
@@ -39,9 +32,9 @@ export default function Home() {
             }),
             "text-lg",
           )}
-          href={"/dashboard"}
+          href={"https://wa.me/+628984143794"}
         >
-          Start Speaking Now
+          Start Our Product
         </Link>
       </MaxWidthWrapper>
 
@@ -62,16 +55,16 @@ export default function Home() {
           </div>
 
           <div>
-            <div className="mx-auto flex max-w-6xl justify-center px-6 lg:px-8">
+            <div className="mx-auto flex max-w-6xl justify-center px- lg:px-8">
               <div className="mt-8 flow-root sm:mt-16">
-                <div className="-m-2 w-fit rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10  lg:-m-4 lg:rounded-2xl lg:p-4">
+                <div className="-m-2 w- fitrounded-xl bg--900/5 p-2 ring-1 ring-inset ring-gray-900/10  lg:-m-4 lg:rounded-2xl lg:p-4">
                   <Image
-                    src="/dashboard-preview.png"
+                    src="/product-preview.jpg"
                     alt="product preview"
-                    width={955}
-                    height={808}
+                    width={500}
+                    height={500}
                     quality={100}
-                    className="rounded-md bg-special p-2 shadow-2xl ring-1 ring-gray-900/10 md:p-8"
+                    className="rounded-md shadow-2xl"
                   />
                 </div>
               </div>
@@ -101,12 +94,8 @@ export default function Home() {
             <div className="mb-6 px-6 lg:px-8">
               <div className="mx-auto max-w-2xl sm:text-center">
                 <h2 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">
-                  Start your first session in seconds
+                  Start your first experience
                 </h2>
-                <p className="mt-4 text-lg text-gray-600">
-                  Improving your spoken fluency has never been easier than with
-                  Convo.
-                </p>
               </div>
             </div>
             {/* steps */}
@@ -118,7 +107,7 @@ export default function Home() {
                     Step 1
                   </span>
                   <span className="text-xl font-semibold">
-                    Sign up for a Free Account
+                    Click start Our Product
                   </span>
                   {/* <span className="mt-2 text-zinc-700">
                 Either starting out with a free plan or choose our{" "}
@@ -138,8 +127,8 @@ export default function Home() {
                     Step 2
                   </span>
                   <span className="text-xl font-semibold">
-                    Choose a <span className="text-blue-600">Language</span> &{" "}
-                    <span className="text-blue-600">Scenario</span>
+                    Sent <span className="text-blue-600">Photo</span> or {" "}
+                    <span className="text-blue-600">Video</span>
                   </span>
                 </div>
               </li>
@@ -149,7 +138,7 @@ export default function Home() {
                     Step 3
                   </span>
                   <span className="text-xl font-semibold">
-                    Start Your Speaking Session
+                  Wait for completion
                   </span>
                   {/* <span className="mt-2 text-zinc-700">
                 
@@ -164,11 +153,10 @@ export default function Home() {
             <div className="mb-6 px-6 lg:px-8">
               <div className="mx-auto max-w-2xl sm:text-center">
                 <h2 className="mt-2 text-4xl font-bold text-gray-900 sm:text-5xl">
-                  Practice in Real Life Scenarios
+                  What We Can Do
                 </h2>
                 <p className="mt-4 text-lg text-gray-600">
-                  Get help if you make a mistake and guidance on saying
-                  something in your target language.
+                Unlocking the realm of possibilities, we seamlessly sculpt 3D models of real objects, effortlessly transitioning from the smallest intricacies to grandiose magnitudes.
                 </p>
               </div>
             </div>
@@ -177,9 +165,9 @@ export default function Home() {
             <div className="flex items-center justify-center">
               <div className="flex flex-col gap-6 md:flex-row">
                 <Card className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
-                  <CardTitle>At the Cafe</CardTitle>
+                  <CardTitle>Product</CardTitle>
                   <CardDescription className="mb-3 text-center">
-                    Learn how to order drinks and snacks
+                  Transform your product into a dynamic 3D model
                   </CardDescription>
                   <Image
                     src="/coffee.webp"
@@ -190,29 +178,29 @@ export default function Home() {
                   />
                 </Card>
                 <Card className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
-                  <CardTitle>Getting A Taxi</CardTitle>
+                  <CardTitle>Room</CardTitle>
                   <CardDescription className="mb-3 text-center">
-                    Learn how to navigate and get directions
+                  Transform any room into a captivating 3D space awaiting your exploration
                   </CardDescription>
                   <Image
-                    src="/taxi.webp"
+                    src="/room.jpg"
                     alt="cafe scenario"
-                    width={128}
-                    height={128}
+                    width={200}
+                    height={200}
                     quality={100}
                   />
                 </Card>
 
                 <Card className="flex flex-col items-center justify-center gap-2 p-6 md:flex-1">
-                  <CardTitle>Social Activities</CardTitle>
+                  <CardTitle>Building</CardTitle>
                   <CardDescription className="mb-3 text-center">
-                    Learn how to make plans and catch up with friends
+                  Transform any building into an immersive 3D model, capturing its architectural essence
                   </CardDescription>
                   <Image
-                    src="/schedule.webp"
+                    src="/building.jpg"
                     alt="cafe scenario"
-                    width={128}
-                    height={128}
+                    width={250}
+                    height={250}
                     quality={100}
                   />
                 </Card>
@@ -226,6 +214,7 @@ export default function Home() {
           </div>
 
           {/* Powered By */}
+{/*
           <div>
             <div className="mb-6 px-6 lg:px-8">
               <div className="mx-auto max-w-2xl sm:text-center">
@@ -287,8 +276,10 @@ export default function Home() {
               </div>
             </div>
           </div>
+*/}
 
           {/* Feedback */}
+{/*
           <div>
             <div className="mb-6 px-6 lg:px-8">
               <div className="mx-auto max-w-2xl sm:text-center">
@@ -300,8 +291,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            {/* steps */}
-
+            
             <div>
               <div className="mx-auto flex max-w-6xl justify-center px-6 lg:px-8">
                 <div className="flow-root">
@@ -319,9 +309,9 @@ export default function Home() {
               </div>
             </div>
           </div>
+*/}
         </div>
       </MaxWidthWrapper>
-
       <Footer />
     </>
   );
