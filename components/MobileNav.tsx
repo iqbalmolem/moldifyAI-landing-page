@@ -6,7 +6,6 @@ import {
   SheetTrigger,
   SheetClose,
 } from "@/components/ui/sheet";
-import { SideNav } from "@/components/SideNav";
 
 export const MobileNav = () => {
   return (
