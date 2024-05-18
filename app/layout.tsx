@@ -5,8 +5,8 @@ import { cn } from "@/lib/utils";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Convo | Language Learning",
-  description: "Speech focused language learning",
+  title: "MoldifyAI | Turn Reality Into Virtual",
+  description: "Turn Reality Into Virtual",
 };
 
 export default function RootLayout({

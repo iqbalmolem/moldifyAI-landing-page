@@ -17,7 +17,6 @@ export const MobileNav = () => {
 
       <SheetContent side="right" className="p-0 bg-secondary pt-5 w-32">
         <SheetClose />
-        <SideNav />
       </SheetContent>
     </Sheet>
   );
